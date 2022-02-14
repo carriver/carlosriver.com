@@ -1,0 +1,40 @@
+#sectionHeader {
+  display: flex;
+  justify-content: space-around;
+}
+
+#headerTitle1 {
+  display: flex;
+  align-items: center;
+  float: none !important;
+  text-align: center;
+  justify-content: center;
+}
+
+#headerTitle2 {
+  display: flex;
+  align-items: center;
+  float: none !important;
+  text-align: center;
+  justify-content: center;
+  width: 410px;
+}
+
+#headerTitle2 > p {
+  padding-right: 0 !important;
+}
+
+#contactDetails {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  display: flex;
+  justify-content: flex-end;
+  width: 68%;
+}
+
+#button > button {
+  margin-left: 0 !important;
+}

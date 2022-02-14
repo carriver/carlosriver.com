@@ -1,0 +1,16 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 160px;
+  width: 100%;
+}
