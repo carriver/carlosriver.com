@@ -92,20 +92,26 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Netflix Clone (React and Firebase)",
-        "category": "",
+        "title": "Online Store",
+        "category": "React, Typescript and Material UI",
+        "image": "reactstore.png",
+        "url": "https://main.d26utig9yle2lw.amplifyapp.com/"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "React, Redux and Firebase)",
         "image": "netflix.png",
         "url": "https://netflix-clone-7dcc3.web.app/"
       },
       {
-        "title": "Portfolio Website (React)",
-        "category": "",
+        "title": "Portfolio Website",
+        "category": "React and AWS",
         "image": "portfolio.png",
         "url": "https://carlosriver.com"
       },
       {
-        "title": "Hangman Game (AngularJS)",
-        "category": "",
+        "title": "Hangman Game",
+        "category": "AngularJS and Bootstrap",
         "image": "hangman.png",
         "url": "https://carriver.github.io/hangman-game/"
       }
