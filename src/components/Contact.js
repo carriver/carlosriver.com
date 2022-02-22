@@ -15,10 +15,10 @@ const Contact = ({ data }) => {
   const submitForm = () => {
     window.open(
       `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
+        subject,
+      )} &body=Message from ${encodeURIComponent(name)} (${encodeURIComponent(
+        email,
+      )}): ${encodeURIComponent(message)}`,
     );
   };
 
