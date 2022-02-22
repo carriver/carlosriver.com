@@ -44,6 +44,18 @@
     ],
     "skills": [
       {
+        "name": "JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "Typescript",
+        "level": "70%"
+      },
+      {
+        "name": "Go",
+        "level": "25%"
+      },
+      {
         "name": "React",
         "level": "80%"
       },
@@ -52,12 +64,24 @@
         "level": "70%"
       },
       {
-        "name": "Git",
-        "level": "85%"
+        "name": "NodeJS",
+        "level": "70%"
       },
       {
-        "name": "JavaScript",
-        "level": "90%"
+        "name": "Redux",
+        "level": "50%"
+      },
+      {
+        "name": "REST API's | GraphQL",
+        "level": "25%"
+      },
+      {
+        "name": "SQL and NoSQL Databases",
+        "level": "20%"
+      },
+      {
+        "name": "Git",
+        "level": "85%"
       },
       {
         "name": "Web Development",
