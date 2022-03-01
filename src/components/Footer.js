@@ -21,8 +21,14 @@ const Footer = ({ data }) => {
 
           <ul className='copyright'>
             <li>
-              © 2022 No rights reserved. Please share or get inspiration from
-              this work!
+              &copy; 2022 No rights reserved. Please share or get inspiration
+              from this work!
+            </li>
+            <li>
+              Design by{' '}
+              <a title='Styleshout' href='http://www.styleshout.com/'>
+                Styleshout
+              </a>
             </li>
           </ul>
         </div>
