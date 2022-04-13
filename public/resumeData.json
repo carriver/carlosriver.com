@@ -44,8 +44,12 @@
     ],
     "skills": [
       {
+        "name": "Java",
+        "level": "45%"
+      },
+      {
         "name": "JavaScript",
-        "level": "90%"
+        "level": "70%"
       },
       {
         "name": "Typescript",
