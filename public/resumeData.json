@@ -1,11 +1,11 @@
 {
   "main": {
     "name": "Carlos Rivera",
-    "occupation": "Self-taught Full Stack Developer",
-    "description1": "When I'm not turning Matcha tea into React apps, I'm breathing, eating and dreaming code.",
-    "description2": "Learning new technologies and programming languages is my passion!",
+    "occupation": "Customer Experience Specialist and Certified Associate Project Manager",
+    "description1": "Making the world a better place, one line of code at a time.",
+    "description2": "Helping people and building lasting relationships is my passion!",
     "image": "profilepic.jpg",
-    "bio": "I recently started an exhilarating new chapter of my life, becoming a self-taught Full Stack Developer. During this time, I have enjoyed learning new programming languages, frameworks, development tools and platforms. I enjoy breaking things down to understand how each component works and contributes to a bigger picture. I’m eager to continue learning and collaborate on new projects, leveraging my experience and technical skills to make powerful contributions. I’m currently interested in joining a talented team to learn and grow alongside them. Check out my Github portfolio and LinkedIn above to know more about me.",
+    "bio": "Empathetic and committed leader with 2+ years of healthcare and benefits experience, 8+ years of customer support expertise and 2+ years of leadership experience. Capable of leveraging my experience and technical skills to build lasting relationships by approaching problems from multiple perspectives to achieve a thorough grasp of customer needs. Motivated to learn new skills while adapting quickly to new and fast paced environments. I'm currently interested in joining a talented team to learn and grow alongside them while I continue to develop my professional career. Check out my Github portfolio and LinkedIn above to know more about me.",
     "email": "hello@carlosriver.com",
     "address": {
       "city": "Pennsylvannia"
@@ -54,10 +54,6 @@
       {
         "name": "Typescript",
         "level": "70%"
-      },
-      {
-        "name": "Go",
-        "level": "25%"
       },
       {
         "name": "React",

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
-import Capabilities from './components/Capabilities';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 
@@ -24,7 +23,6 @@ const App = () => {
     <div className='App'>
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
-      <Capabilities data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
