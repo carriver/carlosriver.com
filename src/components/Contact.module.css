@@ -1,9 +1,9 @@
-#sectionHeader {
+.sectionHeader {
   display: flex;
   justify-content: space-around;
 }
 
-#headerTitle1 {
+.headerTitle1 {
   display: flex;
   align-items: center;
   float: none !important;
@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-#headerTitle2 {
+.headerTitle2 {
   display: flex;
   align-items: center;
   float: none !important;
@@ -20,21 +20,21 @@
   width: 410px;
 }
 
-#headerTitle2 > p {
+.headerTitle2 > p {
   padding-right: 0 !important;
 }
 
-#contactDetails {
+.contactDetails {
   display: flex;
   justify-content: center;
 }
 
-#button {
+.button {
   display: flex;
   justify-content: flex-end;
   width: 68%;
 }
 
-#button > button {
+.button > button {
   margin-left: 0 !important;
 }

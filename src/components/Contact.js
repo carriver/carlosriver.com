@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css';
+import styles from './Contact.module.css';
 
 const Contact = ({ data = {} }) => {
   const [name, setName] = useState('');
@@ -22,19 +22,19 @@ const Contact = ({ data = {} }) => {
 
   return (
     <section id='contact'>
-      <div id='sectionHeader' className='row section-head'>
-        <div id='headerTitle1' className='two columns header-col'>
+      <div className={`row section-head ${styles.sectionHeader}`}>
+        <div className={`two columns header-col ${styles.headerTitle1}`}>
           <h1>
             <span>Get In Touch.</span>
           </h1>
         </div>
 
-        <div id='headerTitle2' className='ten columns'>
+        <div className={`ten columns ${styles.headerTitle2}`}>
           <p className='lead'>{contactMessage}</p>
         </div>
       </div>
 
-      <div id='contactDetails' className='row'>
+      <div className={`row ${styles.contactDetails}`}>
         <div className='eight columns'>
           <form onSubmit={submitForm}>
             <fieldset>
@@ -90,7 +90,7 @@ const Contact = ({ data = {} }) => {
                   id='contactMessage'
                   name='contactMessage'></textarea>
               </div>
-              <div id='button'>
+              <div className={styles.button}>
                 <button type='submit' className='submit'>Submit</button>
               </div>
             </fieldset>
