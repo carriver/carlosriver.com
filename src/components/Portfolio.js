@@ -1,5 +1,5 @@
 import React from 'react';
-import './Portfolio.css';
+import styles from './Portfolio.module.css';
 
 const Portfolio = ({ data = {} }) => {
   const { projects = [] } = data;
@@ -29,12 +29,11 @@ const Portfolio = ({ data = {} }) => {
   return (
     <section id='portfolio'>
       <div className='row'>
-        <div id='main' className='twelve columns collapsed'>
+        <div className={`twelve columns collapsed ${styles.main}`}>
           <h1>Check Out Some of My Projects!</h1>
 
           <div
-            id='portfolio-wrapper'
-            className='bgrid-quarters s-bgrid-thirds cf'>
+            className={`bgrid-quarters s-bgrid-thirds cf ${styles.portfolioWrapper}`}>
             {items}
           </div>
         </div>
