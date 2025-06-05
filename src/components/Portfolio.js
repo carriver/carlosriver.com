@@ -1,30 +1,30 @@
 import React from 'react';
 import './Portfolio.css';
 
-const Portfolio = ({ data }) => {
-  if (data) {
-    var projects = data.projects.map(function (projects) {
-      var projectImage = 'images/portfolio/' + projects.image;
-      return (
-        <div key={projects.title} className='columns portfolio-item'>
-          <div className='item-wrap'>
-            <a href={projects.url} title={projects.title}>
-              <img className='img' alt={projects.title} src={projectImage} />
-              <div className='overlay'>
-                <div className='portfolio-item-meta'>
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
-                </div>
+const Portfolio = ({ data = {} }) => {
+  const { projects = [] } = data;
+
+  const items = projects.map((project) => {
+    const projectImage = 'images/portfolio/' + project.image;
+    return (
+      <div key={project.title} className='columns portfolio-item'>
+        <div className='item-wrap'>
+          <a href={project.url} title={project.title}>
+            <img className='img' alt={project.title} src={projectImage} />
+            <div className='overlay'>
+              <div className='portfolio-item-meta'>
+                <h5>{project.title}</h5>
+                <p>{project.category}</p>
               </div>
-              <div className='link-icon'>
-                <i className='fa fa-link'></i>
-              </div>
-            </a>
-          </div>
+            </div>
+            <div className='link-icon'>
+              <i className='fa fa-link'></i>
+            </div>
+          </a>
         </div>
-      );
-    });
-  }
+      </div>
+    );
+  });
 
   return (
     <section id='portfolio'>
@@ -35,7 +35,7 @@ const Portfolio = ({ data }) => {
           <div
             id='portfolio-wrapper'
             className='bgrid-quarters s-bgrid-thirds cf'>
-            {projects}
+            {items}
           </div>
         </div>
       </div>

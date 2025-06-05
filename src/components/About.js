@@ -1,10 +1,8 @@
 import React from 'react';
 
-const About = ({ data }) => {
-  if (data) {
-    var profilepic = 'images/' + data.image;
-    var bio = data.bio;
-  }
+const About = ({ data = {} }) => {
+  const { image = '', bio = '' } = data;
+  const profilepic = image ? `images/${image}` : '';
 
   return (
     <section id='about'>
