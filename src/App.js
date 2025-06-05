@@ -12,11 +12,13 @@ const App = () => {
   const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
-    fetch('/resumeData.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setResumeData(data);
-      });
+    const fetchData = async () => {
+      const response = await fetch('/resumeData.json');
+      const data = await response.json();
+      setResumeData(data);
+    };
+
+    fetchData();
   }, []);
 
   return (

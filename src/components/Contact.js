@@ -1,22 +1,20 @@
 import React, { useState } from 'react';
 import './Contact.css';
 
-const Contact = ({ data }) => {
+const Contact = ({ data = {} }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  if (data) {
-    var contactEmail = data.email;
-    var contactMessage = data.contactmessage;
-  }
+  const { email: contactEmail = '', contactmessage: contactMessage = '' } = data;
 
-  const submitForm = () => {
+  const submitForm = (e) => {
+    e.preventDefault();
     window.open(
       `mailto:${contactEmail}?subject=${encodeURIComponent(
         subject,
-      )} &body=Message from ${encodeURIComponent(name)} (${encodeURIComponent(
+      )}&body=Message from ${encodeURIComponent(name)} (${encodeURIComponent(
         email,
       )}): ${encodeURIComponent(message)}`,
     );
@@ -93,9 +91,7 @@ const Contact = ({ data }) => {
                   name='contactMessage'></textarea>
               </div>
               <div id='button'>
-                <button onClick={submitForm} type='submit' className='submit'>
-                  Submit
-                </button>
+                <button type='submit' className='submit'>Submit</button>
               </div>
             </fieldset>
           </form>

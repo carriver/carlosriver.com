@@ -1,24 +1,23 @@
 import React from 'react';
 import TypeWriter from 'react-typewriter';
-import './Header.css';
 
-const Header = ({ data }) => {
-  if (data) {
-    var name = data.name;
-    var occupation = data.occupation;
-    var description1 = data.description1;
-    var description2 = data.description2;
-    var city = data.address.city;
-    var networks = data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
-  }
+const Header = ({ data = {} }) => {
+  const {
+    name = '',
+    occupation = '',
+    description1 = '',
+    description2 = '',
+    address: { city = '' } = {},
+    social = [],
+  } = data;
+
+  const networks = social.map((network) => (
+    <li key={network.name}>
+      <a href={network.url}>
+        <i className={network.className}></i>
+      </a>
+    </li>
+  ));
 
   return (
     <header id='home'>
