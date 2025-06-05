@@ -1,11 +1,11 @@
 {
   "main": {
     "name": "Carlos Rivera",
-    "occupation": "Self-taught Full Stack Developer, Customer Experience Specialist and Certified Associate Project Manager",
-    "description1": "Making the world a better place, one line of code at a time.",
-    "description2": "Helping people and building lasting relationships is my passion!",
+    "occupation": "Software Engineer",
+    "description1": "I thrive on building software that empowers users, improves lives, and lays the foundation for long-term trust and engagement.",
+    "description2": "Making the world a better place, one line of code at a time!",
     "image": "profilepic.jpg",
-    "bio": "Empathetic and committed leader with 2+ years of healthcare and benefits experience, 8+ years of customer support expertise and 2+ years of leadership experience. Capable of leveraging my experience and technical skills to build lasting relationships by approaching problems from multiple perspectives to achieve a thorough grasp of customer needs. Motivated to learn new skills while adapting quickly to new and fast paced environments. I'm currently interested in joining a talented team to learn and grow alongside them while I continue to develop my professional career. Check out my Github portfolio and LinkedIn above to know more about me.",
+    "bio": "Operations Engineer with experience in monitoring, troubleshooting, and maintaining large-scale enterprise networks and live production support. Self-taught programmer with 8+ years of customer support expertise and 2+ years of leadership and project management experience. Capable of leveraging my experience and skills to swiftly analyze problems and implement solutions to ensure the best customer experience. Check out my Github portfolio and LinkedIn above to know more about me!",
     "email": "hello@carlosriver.com",
     "address": {
       "city": "Pennsylvannia"
