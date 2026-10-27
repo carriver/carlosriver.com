@@ -1,5 +1,5 @@
 import React from 'react';
-import TypeWriter from 'react-typewriter';
+import TypewriterText from './TypewriterText';
 import SocialLinks from './SocialLinks';
 
 const Header = ({ data = {} }) => {
@@ -49,15 +49,7 @@ const Header = ({ data = {} }) => {
       <div className='row banner'>
         <div className='banner-text'>
           <h1 className='responsive-headline'>
-            <TypeWriter typing={1}>
-              {name ? (
-                <span>
-                  Hello there,
-                  <br />
-                  I&#39;m Carlos!
-                </span>
-              ) : null}
-            </TypeWriter>
+            {name ? <TypewriterText lines={['Hello there,', "I'm Carlos!"]} /> : null}
           </h1>
           <h3>
             <span>
