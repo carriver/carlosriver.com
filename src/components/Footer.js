@@ -1,21 +1,14 @@
 import React from 'react';
+import SocialLinks from './SocialLinks';
 
 const Footer = ({ data = {} }) => {
   const { social = [] } = data;
-
-  const networks = social.map((network) => (
-    <li key={network.name}>
-      <a href={network.url}>
-        <i className={network.className}></i>
-      </a>
-    </li>
-  ));
 
   return (
     <footer>
       <div className='row'>
         <div className='twelve columns centered'>
-          <ul className='social-links'>{networks}</ul>
+          <SocialLinks className='social-links' networks={social} />
 
           <ul className='copyright'>
             <li>

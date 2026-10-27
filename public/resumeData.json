@@ -15,7 +15,8 @@
       {
         "name": "github",
         "url": "https://github.com/carriver",
-        "className": "fa fa-github"
+        "className": "fa fa-github",
+        "label": "GitHub"
       }
     ]
   },

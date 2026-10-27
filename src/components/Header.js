@@ -1,5 +1,6 @@
 import React from 'react';
 import TypeWriter from 'react-typewriter';
+import SocialLinks from './SocialLinks';
 
 const Header = ({ data = {} }) => {
   const {
@@ -10,14 +11,6 @@ const Header = ({ data = {} }) => {
     address: { city = '' } = {},
     social = [],
   } = data;
-
-  const networks = social.map((network) => (
-    <li key={network.name}>
-      <a href={network.url}>
-        <i className={network.className}></i>
-      </a>
-    </li>
-  ));
 
   return (
     <header id='home'>
@@ -78,13 +71,13 @@ const Header = ({ data = {} }) => {
             </span>
           </h3>
           <hr />
-          <ul className='social'>{networks}</ul>
+          <SocialLinks className='social' networks={social} />
         </div>
       </div>
 
       <p className='scrolldown'>
-        <a className='smoothscroll' href='#about'>
-          <i className='icon-down-circle'></i>
+        <a className='smoothscroll' href='#about' aria-label='Scroll to About'>
+          <i className='icon-down-circle' aria-hidden='true'></i>
         </a>
       </p>
     </header>
