@@ -8,7 +8,7 @@
     "bio": "Operations Engineer with experience in monitoring, troubleshooting, and maintaining large-scale enterprise networks and live production support. Self-taught programmer with 8+ years of customer support expertise and 2+ years of leadership and project management experience. Capable of leveraging my experience and skills to swiftly analyze problems and implement solutions to ensure the best customer experience. Check out my GitHub above to learn more about me!",
     "email": "hello@carlosriver.com",
     "address": {
-      "city": "Pennsylvannia"
+      "city": "Pennsylvania"
     },
     "website": "https://carlosriver.com",
     "social": [
@@ -94,7 +94,7 @@
       },
       {
         "title": "Netflix Clone",
-        "category": "React, Redux and Firebase)",
+        "category": "React, Redux and Firebase",
         "image": "netflix.png",
         "url": "https://netflix-clone-7dcc3.web.app/"
       },
