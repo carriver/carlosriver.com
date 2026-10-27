@@ -5,7 +5,7 @@
     "description1": "I thrive on building software that empowers users, improves lives, and lays the foundation for long-term trust and engagement.",
     "description2": "Making the world a better place, one line of code at a time!",
     "image": "profilepic.jpg",
-    "bio": "Operations Engineer with experience in monitoring, troubleshooting, and maintaining large-scale enterprise networks and live production support. Self-taught programmer with 8+ years of customer support expertise and 2+ years of leadership and project management experience. Capable of leveraging my experience and skills to swiftly analyze problems and implement solutions to ensure the best customer experience. Check out my Github portfolio and LinkedIn above to know more about me!",
+    "bio": "Operations Engineer with experience in monitoring, troubleshooting, and maintaining large-scale enterprise networks and live production support. Self-taught programmer with 8+ years of customer support expertise and 2+ years of leadership and project management experience. Capable of leveraging my experience and skills to swiftly analyze problems and implement solutions to ensure the best customer experience. Check out my GitHub above to learn more about me!",
     "email": "hello@carlosriver.com",
     "address": {
       "city": "Pennsylvannia"
@@ -16,11 +16,6 @@
         "name": "github",
         "url": "https://github.com/carriver",
         "className": "fa fa-github"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/carlos-e-rivera",
-        "className": "fa fa-linkedin"
       }
     ]
   },
