@@ -19,8 +19,8 @@ const Footer = ({ data = {} }) => {
 
           <ul className='copyright'>
             <li>
-              &copy; 2025 No rights reserved. Please share or get inspiration
-              from this work!
+              &copy; {new Date().getFullYear()} No rights reserved. Please share or get
+              inspiration from this work!
             </li>
           </ul>
         </div>
