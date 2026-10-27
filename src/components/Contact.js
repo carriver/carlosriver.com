@@ -30,7 +30,7 @@ const Contact = ({ data = {} }) => {
         </div>
 
         <div className={`ten columns ${styles.headerTitle2}`}>
-          <p className='lead'>{contactMessage}</p>
+          {contactMessage && <p className='lead'>{contactMessage}</p>}
         </div>
       </div>
 
