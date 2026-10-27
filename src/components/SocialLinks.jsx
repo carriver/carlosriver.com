@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './SocialLinks.module.css';
 
 const SocialLinks = ({ networks = [], className }) => (

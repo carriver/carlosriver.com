@@ -1,4 +1,3 @@
-import React from 'react';
 import TypewriterText from './TypewriterText';
 import SocialLinks from './SocialLinks';
 

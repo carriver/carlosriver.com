@@ -1,4 +1,3 @@
-import React from 'react';
 
 const About = ({ data = {} }) => {
   const { image = '', bio = '' } = data;

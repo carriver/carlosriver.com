@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 
 const MIN_KEYSTROKE_DELAY_MS = 20;
 const MAX_KEYSTROKE_DELAY_MS = 100;
@@ -39,10 +39,10 @@ const TypewriterText = ({ lines }) => {
   return (
     <span aria-label={lines.join(' ')}>
       {visibleLines(lines, typedCount).map((line, index) => (
-        <React.Fragment key={index}>
+        <Fragment key={index}>
           {index > 0 && <br />}
           <span aria-hidden='true'>{line}</span>
-        </React.Fragment>
+        </Fragment>
       ))}
     </span>
   );
