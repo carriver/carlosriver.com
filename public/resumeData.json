@@ -94,10 +94,10 @@
         "url": "https://react-online-store-three.vercel.app/"
       },
       {
-        "title": "Netflix Clone",
-        "category": "React, Redux and Firebase",
-        "image": "netflix.png",
-        "url": "https://github.com/carriver/netflix-clone"
+        "title": "Reelhouse",
+        "category": "Netflix-inspired: React, Redux and Firebase",
+        "image": "reelhouse.png",
+        "url": "https://reelhouse-lake.vercel.app/"
       },
       {
         "title": "Portfolio Website",
