@@ -88,8 +88,8 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Online Store",
-        "category": "React, Typescript and Material UI",
+        "title": "Fake Online Store",
+        "category": "Idle shop game: React and TypeScript",
         "image": "reactstore.png",
         "url": "https://react-online-store-three.vercel.app/"
       },
